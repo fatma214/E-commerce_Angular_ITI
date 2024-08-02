@@ -1,0 +1,32 @@
+<!--
+<h1>all products</h1>
+<div class="row">
+  @for (meal of meals; track $index) {
+    <div class="col-md-4 col-lg-2">
+      <app-product [meal]="meal"></app-product>
+    </div>
+  }
+</div>
+
+<h2>recommended prodcuts </h2>
+
+<p #bl7>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti rerum, amet reprehenderit repudiandae commodi facere fugiat saepe sunt quo a aspernatur debitis magni dolor? Veniam sapiente porro quae rerum. Veniam similique corporis ducimus explicabo reprehenderit amet officiis, error sunt consectetur repellat reiciendis aperiam quos voluptates temporibus. Quos vitae veritatis quas?
+</p>
+
+
+
+@defer (on timer(5s)) {
+  <app-recommended-prodcuts [meals]="meals"></app-recommended-prodcuts>
+}
+@placeholder {
+  <h1>hellow from placeholder</h1>
+}
+
+@loading (minimum 2s){
+   <h1>hellow from loading .........</h1>
+}
+
+<div class="container">
+  <app-category></app-category>
+</div> -->
